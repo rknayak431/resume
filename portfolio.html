@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratikanta Nayak's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+            padding-bottom: 4rem; /* Increased padding to accommodate footer */
+        }
+        .main {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .main:hover {
+            transform: translateY(-10px);
+        }
+        .main h2 {
+            border-bottom: 2px solid #1a1a2e;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 1rem;
+            position: relative;
+        }
+        .contact {
+            margin-top: 2rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 0.5rem 0;
+        }
+        a {
+            color: #1a1a2e;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #e94560;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #1a1a2e;
+            padding: 0.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        .navbar a:hover {
+            background: #e94560;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .navbar a.active {
+            background: #e94560;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .section {
+            padding: 4rem 0; /* Increased padding to avoid overlapping */
+        }
+        .fade-in {
+            animation: fadeIn 1.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ratikanta Nayak</h1>
+        <p>Experienced Mainframe Developer | Cloud Technologies Enthusiast</p>
+    </header>
+    <nav class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#summary">Professional Summary</a>
+        <a href="#projects">Project Details</a>
+        <a href="#skills">Technical Skills</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="main section fade-in">
+            <h2>About Me</h2>
+            <p>Experienced Mainframe Developer with a focus on Cloud technologies, driving digital innovation. Skilled in optimizing legacy systems for seamless integration with modern, cloud-based environments. Proficient in Azure DevOps, streamlining workflows, automating processes, and fostering collaboration. Enthusiastic about growth in the Cloud and digital technology realms, actively seeking to expand skills and stay ahead of industry advancements. Dedicated to driving innovation and growth within Mainframe and digital technology businesses, bridging the gap between legacy systems and modern cloud architectures. Results-oriented with a passion for continuous improvement, poised to contribute technical acumen, strategic thinking, and collaboration to thrive in the digital landscape.</p>
+        </div>
+        <div id="summary" class="main section fade-in">
+            <h2>Professional Summary</h2>
+            <ul>
+                <li>10+ years of experience in Application Development and Maintenance, Enhancement and Production support, Requirement Analysis, Client Management.</li>
+                <li>Strong analytical, problem-solving, multitasking and strategic planning skills.</li>
+                <li>Good at Automation, removing manual intervention in the application resulting in Client Satisfaction.</li>
+                <li>Proficient in executing IT projects and ensuring delivery of projects in compliance with defined quality parameters.</li>
+                <li>Executed end-to-end development of software projects from requirement specifications, planning, designing, implementation, configuration management, documentation.</li>
+                <li>Ability to understand and meet the changing business requirements.</li>
+                <li>Mentoring new joiners in the project and giving them knowledge transfer for the project.</li>
+            </ul>
+        </div>
+        <div id="projects" class="main section fade-in">
+            <h2>Project Details</h2>
+            <h3>Assignment-8 (Jan 2023 - Present)</h3>
+            <ul>
+                <li>Client: ABN AMRO</li>
+                <li>Role: Assistant Consultant</li>
+                <li>Responsibilities: IT Engineer, Daily scrum meetings, Business Stakeholder coordination, CICD Adoption and Implementation, Production Issue analysis and Resolution.</li>
+                <li>Technologies: COBOL, DB2, JCL, IMS, COOL-GEN, Azure, Java, Spring boot.</li>
+            </ul>
+            <!-- Add more assignments similarly as needed -->
+        </div>
+        <div id="skills" class="main section fade-in">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages: COBOL, JCL, DB2, REXX, VSAM, C, Unix</li>
+                <li>Platforms: Windows 7, IBM Mainframe, JIRA</li>
+                <li>Change Control Tool: ENDEVOR, Change Man</li>
+                <li>Debugging Tool: XPEDITER</li>
+                <li>Ticket Tracking Tool: ServiceCenter Client, Service NOW, Assyst</li>
+                <li>Remote Accessing Tool: PuTTY</li>
+                <li>Databases: DB2, IMS DB, IMS DC</li>
+                <li>Tools & Utilities: FILEAID, FILE MANAGER, ZEKE, Control-M IBM MAINFRAME UTILITIES</li>
+            </ul>
+        </div>
+        <div id="education" class="main section fade-in">
+            <h2>Education</h2>
+            <ul>
+                <li>B. Tech in Applied Electronics and Instrumentation Engineering from C.V. Raman College of Engineering, Bhubaneswar - 7.67 CGPA</li>
+                <li>XII from Stewart Science College, Cuttack - 74%</li>
+                <li>X from Odisha Police High School, Cuttack - 84%</li>
+            </ul>
+        </div>
+        <div id="awards" class="main section fade-in">
+            <h2>Awards</h2>
+            <ul>
+                <li>Icon of the Month (August 2019) - Cognizant</li>
+                <li>Insta Award (2017, 2018) - Infosys</li>
+            </ul>
+        </div>
+        <div id="contact" class="main section fade-in contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:rkofficial157@gmail.com">rkofficial157@gmail.com</a></p>
+            <p>Phone: +91-7008256757</p>
+            <p>Address: C/O – Padmanav Nayak, At/PO- Tulasipal, PS: Banarpal, Dist: Angul, Odisha, 759128</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ratikanta Nayak</p>
+    </footer>
+</body>
+</html>
