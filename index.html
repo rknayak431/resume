@@ -17,17 +17,26 @@
         header {
             background: #1a1a2e;
             color: #fff;
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+        }
+        header .profile-picture {
+            border-radius: 50%;
+            max-width: 100px;
+            margin-right: 1rem;
+        }
+        header .header-text {
+            display: flex;
+            flex-direction: column;
         }
         header h1 {
             margin: 0;
             font-size: 2.5rem;
         }
         header p {
+            margin: 0;
             font-size: 1.2rem;
-            margin: 0.5rem 0 0;
         }
         .container {
             width: 90%;
@@ -117,8 +126,11 @@
 </head>
 <body>
     <header>
-        <h1>Ratikanta Nayak</h1>
-        <p>Experienced Mainframe Developer | Cloud Technologies Enthusiast</p>
+        <img class="profile-picture" src="https://avatars.githubusercontent.com/u/170526236?s=400&u=c26ecacaba190956d674db3f95c9a24318669bbe&v=4" alt="Profile Picture">
+        <div class="header-text">
+            <h1>Ratikanta Nayak</h1>
+            <p>Experienced Mainframe Developer | Cloud Technologies Enthusiast</p>
+        </div>
     </header>
     <nav class="navbar">
         <a href="#about">About Me</a>
