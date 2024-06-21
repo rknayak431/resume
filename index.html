@@ -122,6 +122,13 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
+        .nested-list {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+        .nested-list li {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -135,11 +142,12 @@
     <nav class="navbar">
         <a href="#about">About Me</a>
         <a href="#summary">Professional Summary</a>
+        <a href="#employment">Employment Details</a>
         <a href="#projects">Project Details</a>
         <a href="#skills">Technical Skills</a>
         <a href="#education">Education</a>
         <a href="#awards">Awards</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contacts</a>
     </nav>
     <div class="container">
         <div id="about" class="main section fade-in">
@@ -158,16 +166,104 @@
                 <li>Mentoring new joiners in the project and giving them knowledge transfer for the project.</li>
             </ul>
         </div>
+        <div id="employment" class="main section fade-in">
+            <h2>Employment Details</h2>
+            <ul>
+                <li><strong>Infosys Limited.</strong>(Apr 2013 - July 2018: Technology Analyst)</li>
+                <li><strong>Cognizant Technology Solutions.</strong>(Aug 2018 - Mar 2021: Associate Projects)</li>
+                <li><strong>Tata Consultancy Solutions</strong>(Mar 2021 - Present: Assistant Consultant)</li>
+            </ul>
+        </div>
         <div id="projects" class="main section fade-in">
             <h2>Project Details</h2>
-            <h3>Assignment-8 (Jan 2023 - Present)</h3>
+            <h3>Assignment-6 (Jan 2023 - Present)</h3>
             <ul>
                 <li>Client: ABN AMRO</li>
                 <li>Role: Assistant Consultant</li>
-                <li>Responsibilities: IT Engineer, Daily scrum meetings, Business Stakeholder coordination, CICD Adoption and Implementation, Production Issue analysis and Resolution.</li>
+                <li>Project: Order Processing</li>
+                <li>
+                    <strong>Responsibilities:</strong> IT Engineer
+                    <ul class="nested-list">
+                        <li>Daily scrum meetings</li>
+                        <li>Business Stakeholder coordination</li>
+                        <li>CICD Adoption and Implementation</li>
+                        <li>Production Issue analysis and Resolution</li>
+                    </ul>
+                </li>
                 <li>Technologies: COBOL, DB2, JCL, IMS, COOL-GEN, Azure, Java, Spring boot.</li>
             </ul>
-            <!-- Add more assignments similarly as needed -->
+            <h3>Assignment-5 (Mar 2021 - Dec 2022)</h3>
+            <ul>
+                <li>Client: HSBC</li>
+                <li>Role: Assistant Consultant</li>
+                <li>Project: Loan Amortization ATL Project</li>
+                <li>
+                    <strong>Responsibilities:</strong> Technical Lead and Scrum Master
+                    <ul class="nested-list">
+                        <li>Daily scrum meetings meeting to review the progress</li>
+                        <li>Technical Specification Document (TSD) preparation</li>
+                        <li>Coding, Unit Testing, Review, SIT and UAT support</li>
+                        <li>Co-ordinate with Business stakeholders</li>
+                    </ul>
+                </li>
+                <li>Technologies: COBOL, DB2, JCL, IMS, COOL-GEN, Azure, Java, Spring boot.</li>
+            </ul>
+            <h3>Assignment-4 (Aug 2018 - Mar 2021)</h3>
+            <ul>
+                <li>Client: British Airways</li>
+                <li>Role: Project Associates</li>
+                <li>Project: CFS (Common Finance System)</li>
+                <li>
+                    <strong>Responsibilities:</strong> Mainframe Developer and Module Lead
+                    <ul class="nested-list">
+                        <li>Technical Specification Document (TSD) preparation</li>
+                        <li>Coding, Unit Testing, Review, SIT and UAT support</li>
+			<li>Implementation Plan preparation</li>
+                        <li>Co-ordinate with Business stakeholders</li>
+                    </ul>
+                </li>
+                <li>Technologies: COBOL, DB2, JCL, VSAM, ENDEVOR, Change Man, Control M</li>
+            </ul>
+            <h3>Assignment-3 (Sep 2017 - July 2018)</h3>
+            <ul>
+                <li>Client: Aetna</li>
+                <li>Role: Technology Analyst</li>
+                <li>Project: Y2K Remediation in Corporate Domain</li>
+                <li>
+                    <strong>Responsibilities:</strong> Mainframe Developer
+                    <ul class="nested-list">
+                        <li>System analysis to identify impacted COBOL modules handling date fields going year2020 and finalizing the optimized solution for the fix in terms in cost optimization for client.</li>
+                        <li>Primary responsible for Design, Coding, Unit Testing, Mentoring team members, deployment activities, staging product checkout and client interactions.</li>
+                    </ul>
+                </li>
+                <li>Technologies: COBOL, DB2, JCL, IMS, COOL-GEN, Azure, Java, Spring boot.</li>
+            </ul>
+            <h3>Assignment-2 (Aug 2013 - Aug 2017)</h3>
+            <ul>
+                <li>Client: Aetna</li>
+                <li>Role: Assistant Consultant</li>
+                <li>Project: Managed Services</li>
+                <li>
+                    <strong>Responsibilities:</strong> Mainframe Developer
+                    <ul class="nested-list">
+                        <li>Solving Production Issues, Abend Handling, Root Cause Analysis</li>
+                    </ul>
+                </li>
+                <li>Technologies: COBOL, DB2, JCL, IMS, COOL-GEN, Azure, Java, Spring boot.</li>
+            </ul>
+            <h3>Assignment-1 (Apr 2013 - July 2013)</h3>
+            <ul>
+                <li>Infosys Mysore: Training Campus</li>
+                <li>Role: System Engineer</li>
+                <li>Project: Mainframe Training and Generic in-house projects</li>
+                <li>
+                    <strong>Responsibilities:</strong> Training
+                    <ul class="nested-list">
+                        <li>Completed generic training in DBMS, Software Engineering, agile methodology, OS, Java, Mainframe Techonology involving MVS, JCL, COBOL, DB2, JCL, CICS</li>
+                    </ul>
+                </li>
+                <li>Technologies: COBOL, DB2, JCL, IMS, COOL-GEN, Azure, Java, Spring boot.</li>
+            </ul>
         </div>
         <div id="skills" class="main section fade-in">
             <h2>Technical Skills</h2>
@@ -198,8 +294,10 @@
             </ul>
         </div>
         <div id="contact" class="main section fade-in contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:rknayak431@gmail.com">rknayak431@gmail.com</a></p>
+            <h2>Contact and Personal Details</h2>
+            <p>Date of Birth: 15th July 1990</p>
+            <p>Laguage Known: English, Hindi, Odia</p>
+            <p>Email: <a href="mailto:rkofficial157@gmail.com">rkofficial157@gmail.com</a></p>
             <p>Phone: +91-7008256757</p>
             <p>Address: C/O – Padmanav Nayak, At/PO- Tulasipal, PS: Banarpal, Dist: Angul, Odisha, 759128</p>
         </div>
